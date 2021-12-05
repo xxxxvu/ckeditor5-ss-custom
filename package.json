@@ -1,5 +1,5 @@
 {
-  "name": "ckeditor5-build-classic-mathtype",
+  "name": "ckeditor5-ss-custom",
   "version": "1.0.0",
   "description": "The classic editor build of CKEditor 5 + Mathtype – the best browser-based rich text editor.",
   "keywords": [
@@ -68,11 +68,11 @@
   },
   "author": "Henok Tesfaye <henoktes72@gmail.com>",
   "license": "ISC",
-  "homepage": "https://github.com/henok-tesfaye/ckeditor5-build-classic-mathtype",
-  "bugs": "https://github.com/henok-tesfaye/ckeditor5-build-classic-mathtype/issues",
+  "homepage": "https://github.com/xxxxvu/ckeditor5-ss-custom",
+  "bugs": "https://github.com/xxxxvu/ckeditor5-ss-custom/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/henok-tesfaye/ckeditor5-build-classic-mathtype.git"
+    "url": "https://github.com/xxxxvu/ckeditor5-ss-custom.git"
   },
   "scripts": {
     "build": "webpack --mode production",
