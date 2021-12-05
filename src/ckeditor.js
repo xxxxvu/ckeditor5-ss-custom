@@ -17,10 +17,10 @@ import EasyImage from "@ckeditor/ckeditor5-easy-image/src/easyimage";
 import Heading from "@ckeditor/ckeditor5-heading/src/heading";
 import Image from "@ckeditor/ckeditor5-image/src/image";
 import ImageCaption from "@ckeditor/ckeditor5-image/src/imagecaption";
-import ImageResize from "@ckeditor/ckeditor5-image/src/imageresize.js";
 import ImageStyle from "@ckeditor/ckeditor5-image/src/imagestyle";
 import ImageToolbar from "@ckeditor/ckeditor5-image/src/imagetoolbar";
 import ImageUpload from "@ckeditor/ckeditor5-image/src/imageupload";
+import ImageResize from "@ckeditor/ckeditor5-image/src/imageresize.js";
 import Indent from "@ckeditor/ckeditor5-indent/src/indent";
 import Link from "@ckeditor/ckeditor5-link/src/link";
 import List from "@ckeditor/ckeditor5-list/src/list";
@@ -30,8 +30,11 @@ import PasteFromOffice from "@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from "@ckeditor/ckeditor5-table/src/table";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation";
-
+import ImageResizeEditing from "@ckeditor/ckeditor5-image/src/imageresize/imageresizeediting";
+import ImageResizeHandles from "@ckeditor/ckeditor5-image/src/imageresize/imageresizehandles";
 import Mathtype from "@wiris/mathtype-ckeditor5";
+
+import CloudServices from "@ckeditor/ckeditor5-cloud-services/src/cloudservices";
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -47,8 +50,8 @@ ClassicEditor.builtinPlugins = [
 	EasyImage,
 	Heading,
 	Image,
-	ImageCaption,
 	ImageResize,
+	ImageCaption,
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
@@ -62,6 +65,9 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	Mathtype,
+	ImageResizeEditing,
+	ImageResizeHandles,
+	CloudServices,
 ];
 
 // Editor configuration.
